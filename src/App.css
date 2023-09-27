@@ -1,0 +1,106 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.divbox {
+  width: 100%;
+  height: 100%;
+}
+
+.div-left {
+  position: relative;
+  top: 0;
+  background-color: antiquewhite;
+  /* padding: 20px 0; */
+  width: 50%;
+  height: 100%;
+}
+
+.div-right {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  padding-top: 20px;
+  background-color: silver;
+  width: 50%;
+  height: 100%;
+}
+
+.ingredients {
+  text-align: center;
+}
+
+.addIngredient-btn-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.ingredients-span {
+  padding: 0 50px;
+}
+
+.recepies {
+  border-bottom: 1px solid #282c34;
+}
+
+.single-recepie {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.form {
+  border-left: 1px solid #282c34;
+}
+
+.recepieForm {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 10px;
+  column-gap: 40px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  width: 95%;
+  height: 6em;
+}
+
+.addRecepie-btn-container {
+  text-align: center;
+  padding: 20px;;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  border: none;
+}
+
+.blue {
+  background-color: deepskyblue;  
+}
+
+.red {
+  background-color: red;
+}
+
+.grey {
+  background-color: gray;
+}
+
+.recepie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
